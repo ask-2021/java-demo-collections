@@ -24,8 +24,23 @@ public class GenericArrayListExample {
         System.out.println(list);
 
         //list.add(0, i);  --> here it added i to 0th index and moved other values to next indices
-        list.set(0, i);   // --> set updates the value at required index
+        list.set(0, i);   // --> set updates the value at required index```
         System.out.println(list);
         System.out.println(list.get(0));
-    }
+
+        list.add(20);
+        list.add(30);
+        System.out.println(list);
+
 }
+
+}
+
+
+
+
+
+
+
+
+
